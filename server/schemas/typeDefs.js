@@ -27,6 +27,9 @@ type Query {
 type Mutation {
     signUp(name: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
+
+    createNote(note: Note!): User
+    deleteNote(note: Note!): User
 }
 `
 
