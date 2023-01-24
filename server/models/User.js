@@ -1,5 +1,13 @@
-const { Schema, model, Model } = require('mongoose');
+const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
+
+const goalSchema = new Schema({
+    body: {
+        type: String,
+        required: true,
+        trim: true
+    }
+})
 
 const userSchema = new Schema({
     name: {
@@ -18,7 +26,8 @@ const userSchema = new Schema({
         type: String,
         required: true,
         minlength: 8
-    }
+    },
+    goals: [goalSchema]
 })
 
 userSchema.pre('save', async function (next) {
