@@ -25,3 +25,23 @@ mutation login {
     }
 }
 `
+
+export const CREATE_NOTE = gql`
+mutation createNote {
+    createNote(note: $note) {
+        _id
+        name
+        notes
+    }
+}
+`
+
+export const DELETE_NOTE = gql`
+mutation deleteNote {
+    deleteNote(note: $note) {
+        _id
+        name
+        notes
+    }
+}
+`
