@@ -4,6 +4,7 @@ const typeDefs = gql`
 type Note {
     _id: ID
     body: String
+    createdAt: Date
 }
 
 type User {
