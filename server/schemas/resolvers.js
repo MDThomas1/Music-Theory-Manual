@@ -34,6 +34,41 @@ const resolvers = {
 
             const token = signToken(user)
             return { token, user }
+        },
+        createNote: async (parent, { note }, context) => {
+            if (context.user) {
+                return User.findOneAndUpdate(
+                    {
+                        _id: context.user._id
+                    },
+                    {
+                        $addToSet: { notes: note }
+                    },
+                    {
+                        new: true,
+                        runValidators: true
+                    }
+                )
+            }
+
+            throw new AuthenticationError("It appears you aren't currently logged in!")
+        },
+        deleteNote: async (parent, { note }, context) => {
+            if (context.user) {
+                return User.findOneAndUpdate(
+                    {
+                        _id: context.user._id
+                    },
+                    {
+                        $pull: { notes: note }
+                    },
+                    {
+                        new: true
+                    }
+                )
+            }
+
+            throw new AuthenticationError("It appears you aren't currently logged in!")
         }
     }
 }
