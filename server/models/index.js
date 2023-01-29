@@ -3,9 +3,8 @@ const Note = require('./Note')
 
 const Chord = require('./Chord')
 const Interval = require('./Interval')
-const KeySignature = require('./Key-Signature')
 const Rhythm = require('./Rhythm')
 const Scale = require('./Scale')
-const TimeSignature = require('./Time-Signature')
+const Symbol = require('./Symbol')
 
-module.exports = { User, Note, Chord, Interval, KeySignature, Rhythm, Scale, TimeSignature }
+module.exports = { User, Note, Chord, Interval, Rhythm, Scale, Symbol }
