@@ -4,19 +4,18 @@ const {
   User, 
   Chord, 
   Interval, 
-  KeySignature, 
-  Rhythm, Scale, 
-  TimeSignature 
+  Rhythm, 
+  Scale, 
+  Symbol
 } = require('../models');
 
 const userSeeds = require('./userSeeds.json');
 
 const chordSeeds = require('./chordSeeds.json');
 const intervalSeeds = require('./intervalSeeds.json');
-const keySigSeeds = require('./keySigSeeds.json');
 const rhythmSeeds = require('./rhythmSeeds.json');
 const scaleSeeds = require('./scaleSeeds.json')
-const timeSigSeeds = require('./timeSigSeeds.json')
+const symbolSeeds = require('./symbolSeeds.json')
 
 db.once('open', async () => {
   try {
@@ -29,17 +28,14 @@ db.once('open', async () => {
     await Interval.deleteMany({})
     await Interval.create(intervalSeeds)
 
-    await KeySignature.deleteMany({})
-    await KeySignature.create(keySigSeeds)
-
     await Rhythm.deleteMany({})
     await Rhythm.create(rhythmSeeds)
 
     await Scale.deleteMany({})
     await Scale.create(scaleSeeds)
 
-    await TimeSignature.deleteMany({})
-    await TimeSignature.create(timeSigSeeds)
+    await Symbol.deleteMany({})
+    await Symbol.create(symbolSeeds)
 
     console.log('Data successfully uploaded!');
     process.exit(0);
