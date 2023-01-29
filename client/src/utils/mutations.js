@@ -10,8 +10,7 @@ mutation signUp {
             notes
         )
     }
-}
-`
+}`
 
 export const LOGIN_USER = gql`
 mutation login {
@@ -23,8 +22,7 @@ mutation login {
             notes
         )
     }
-}
-`
+}`
 
 export const CREATE_NOTE = gql`
 mutation createNote {
@@ -33,8 +31,7 @@ mutation createNote {
         name
         notes
     }
-}
-`
+}`
 
 export const DELETE_NOTE = gql`
 mutation deleteNote {
@@ -43,5 +40,4 @@ mutation deleteNote {
         name
         notes
     }
-}
-`
+}`
