@@ -32,6 +32,9 @@ function App() {
         <Router>
             <Header />
             <Navbar />
+            <Routes>
+                
+            </Routes>
             <Footer />
         </Router>
     </ApolloProvider>

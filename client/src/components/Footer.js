@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import Auth from '../../utils/auth';
 
 const Footer = () => {
-
+    <footer>
+        <a href='https://github.com/MDThomas1'>
+            <p>Created by Miles Thomas</p>
+        </a>
+    </footer>
 }
 
 export default Footer
