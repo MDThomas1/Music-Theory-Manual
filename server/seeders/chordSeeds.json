@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Major",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Standard Triads"
+    },
+    {
+        "name": "Minor",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Standard Triads"
+    },
+    {
+        "name": "Diminished",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Standard Triads"
+    },
+    {
+        "name": "Augmented",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Standard Triads"
+    },
+    {
+        "name": "Suspended 4th",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Suspended Chords"
+    },
+    {
+        "name": "Suspended 2nd",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Suspended Chords"
+    },
+    {
+        "name": "Major 6th",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Sixth Chords"
+    },
+    {
+        "name": "Minor 6th",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Sixth Chords"
+    },
+    {
+        "name": "Major 7th",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": ""
+    },
+    {
+        "name": "Minor 7th",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": ""
+    },
+    {
+        "name": "Dominant 7th",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": ""
+    },
+    {
+        "name": "Minor Major 7th",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": ""
+    },
+    {
+        "name": "Half Diminshed Chord",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": ""
+    },
+    {
+        "name": "Full Diminished Chord",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": ""
+    }
+]
