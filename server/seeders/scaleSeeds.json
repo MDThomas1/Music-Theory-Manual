@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Ionian/Major",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Major Modes"
+    },
+    {
+        "name": "Dorian",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Major Modes"
+    },
+    {
+        "name": "Phrygian",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Major Modes"
+    },
+    {
+        "name": "Lydian",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Major Modes"
+    },
+    {
+        "name": "Mixolydian",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Major Modes"
+    },
+    {
+        "name": "Aeolian/Natural Minor",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Major Modes"
+    },
+    {
+        "name": "Locrian",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Major Modes"
+    },
+    {
+        "name": "Major Pentatonic",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Pentatonic Scales"
+    },
+    {
+        "name": "Minor Pentatonic",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Pentatonic Scales"
+    },
+    {
+        "name": "Blues Scale",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Other Useful Scales"
+    },
+    {
+        "name": "Harmonic Minor",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Other Useful Scales"
+    },
+    {
+        "name": "Melodic Minor",
+        "structure": "",
+        "description": "",
+        "image": "",
+        "subsection": "Other Useful Scales"
+    }
+]
