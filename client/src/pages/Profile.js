@@ -6,6 +6,8 @@ import { QUERY_ME } from '../utils/queries';
 
 import { CREATE_NOTE, DELETE_NOTE } from '../utils/mutations'
 
+import Auth from '../utils/auth'
+
 const Profile = () => {
     const { data } = useQuery(QUERY_ME)
 
@@ -50,6 +52,11 @@ const Profile = () => {
                 <div>
                     
                 </div> }
+            </div>
+            <div>
+                <button type='click' onClick={Auth.logout()}>
+                    Logout
+                </button>
             </div>
         </div>
     )
