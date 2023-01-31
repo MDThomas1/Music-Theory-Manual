@@ -34,10 +34,22 @@ const Profile = () => {
         <div>
             <h3>Welcome {profile.name}</h3>
             <div>
+                <h4>Create a new note</h4>
                 <form onSubmit={handleFormSubmit}>
-                    <input placeholder='Create a new note!' value={note} onChange={(event) => setNote(event.target.value)} />
+                    <input placeholder='Enter new note here' value={note} onChange={(event) => setNote(event.target.value)} />
                     <button type='submit'>Create</button>
                 </form>
+            </div>
+            <div>
+                <h4>Your Notes List</h4>
+                {!profile.notes.length ? 
+                <p>
+                    You don't currently have any notes. Use the form above to create some.
+                </p>
+                : 
+                <div>
+                    
+                </div> }
             </div>
         </div>
     )
