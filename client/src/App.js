@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
@@ -45,7 +45,7 @@ function App() {
         if (currentPage === 'Home') {
             return <Home />
         }
-        
+
         if (currentPage === 'Login') {
             return <Login />
         }
