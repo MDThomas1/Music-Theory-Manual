@@ -4,7 +4,9 @@ import { useQuery, useMutation } from '@apollo/client';
 
 import { QUERY_ME } from '../utils/queries';
 
-import { CREATE_NOTE, DELETE_NOTE } from '../utils/mutations'
+import { CREATE_NOTE } from '../utils/mutations'
+
+import NoteList from '../components/NoteList'
 
 import Auth from '../utils/auth'
 
@@ -50,7 +52,7 @@ const Profile = () => {
                 </p>
                 : 
                 <div>
-                    
+                    <NoteList />
                 </div> }
             </div>
             <div>
