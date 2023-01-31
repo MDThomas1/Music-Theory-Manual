@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Auth from '../utils/auth'
+
 const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         <div className='navbar'>
@@ -22,6 +24,23 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                 <li className='nav-item'>
                     <a href='#chords' onClick={() => handlePageChange('Chords')}>Chords</a>
                 </li>
+                {
+                    Auth.loggedIn() ?
+                    <div className=''>
+                        <li className='nav-item'>
+                            <a href='#chords' onClick={() => handlePageChange('Profile')}>Profile</a>
+                        </li>
+                    </div>
+                    :
+                    <div>
+                        <li className='nav-item'>
+                            <a href='#chords' onClick={() => handlePageChange('Login')}>Login</a>
+                        </li>
+                        <li className='nav-item'>
+                            <a href='#chords' onClick={() => handlePageChange('Signup')}>Sign Up</a>
+                        </li>
+                    </div>
+                }
             </ul>
         </div>
     )
