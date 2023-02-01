@@ -1,100 +1,100 @@
 [
     {
         "name": "Major",
-        "structure": "",
+        "structure": "Major 3rd, Minor 3rd",
         "description": "",
         "image": "",
         "subsection": "Standard Triads"
     },
     {
         "name": "Minor",
-        "structure": "",
+        "structure": "Minor 3rd, Major 3rd",
         "description": "",
         "image": "",
         "subsection": "Standard Triads"
     },
     {
         "name": "Diminished",
-        "structure": "",
+        "structure": "Minor 3rd, Minor 3rd",
         "description": "",
         "image": "",
         "subsection": "Standard Triads"
     },
     {
         "name": "Augmented",
-        "structure": "",
+        "structure": "Major 3rd, Minor 3rd",
         "description": "",
         "image": "",
         "subsection": "Standard Triads"
     },
     {
         "name": "Suspended 4th",
-        "structure": "",
+        "structure": "Perfect 4th, Major 2nd",
         "description": "",
         "image": "",
         "subsection": "Suspended Chords"
     },
     {
         "name": "Suspended 2nd",
-        "structure": "",
+        "structure": "Minor 2nd, Perfect 4th",
         "description": "",
         "image": "",
         "subsection": "Suspended Chords"
     },
     {
         "name": "Major 6th",
-        "structure": "",
+        "structure": "Major 3rd, Minor 3rd, Major 2nd",
         "description": "",
         "image": "",
         "subsection": "Sixth Chords"
     },
     {
         "name": "Minor 6th",
-        "structure": "",
+        "structure": "Minor 3rd, Major 3rd, Major 2nd",
         "description": "",
         "image": "",
         "subsection": "Sixth Chords"
     },
     {
         "name": "Major 7th",
-        "structure": "",
+        "structure": "Major 3rd, Minor 3rd, Major 3rd",
         "description": "",
         "image": "",
-        "subsection": ""
+        "subsection": "Seventh Chords"
     },
     {
         "name": "Minor 7th",
-        "structure": "",
+        "structure": "Minor 3rd, Major 3rd, Minor 3rd",
         "description": "",
         "image": "",
-        "subsection": ""
+        "subsection": "Seventh Chords"
     },
     {
         "name": "Dominant 7th",
-        "structure": "",
+        "structure": "Major 3rd, Minor 3rd, Minor 3rd",
         "description": "",
         "image": "",
-        "subsection": ""
+        "subsection": "Seventh Chords"
     },
     {
         "name": "Minor Major 7th",
-        "structure": "",
+        "structure": "Minor 3rd, Major 3rd, Major 3rd",
         "description": "",
         "image": "",
-        "subsection": ""
+        "subsection": "Seventh Chords"
     },
     {
         "name": "Half Diminshed Chord",
-        "structure": "",
+        "structure": "Minor 3rd, Minor 3rd, Major 3rd",
         "description": "",
         "image": "",
-        "subsection": ""
+        "subsection": "Seventh Chords"
     },
     {
         "name": "Full Diminished Chord",
-        "structure": "",
+        "structure": "Minor 3rd, Minor 3rd, Minor 3rd",
         "description": "",
         "image": "",
-        "subsection": ""
+        "subsection": "Seventh Chords"
     }
 ]
