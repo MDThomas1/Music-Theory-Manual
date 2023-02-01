@@ -40,51 +40,6 @@ const client = new ApolloClient({
 });
 
 function App() {
-    const [currentPage, setCurrentPage] = useState('Home');
-
-    const renderPage = () => {
-        if (currentPage === 'Home') {
-            return <Home />
-        }
-
-        if (currentPage === 'Login') {
-            return <Login />
-        }
-
-        if (currentPage === 'Profile') {
-            return <Profile />
-        }
-        if (currentPage === 'Signup') {
-            return <Signup />
-        }
-
-        if (currentPage === 'Chords') {
-            return <Chords />
-        }
-
-        if (currentPage === 'Intervals') {
-            return <Intervals />
-        }
-
-        if (currentPage === 'Intro') {
-            return <Intro />
-        }
-
-        if (currentPage === 'Notation') {
-            return <Notation />
-        }
-
-        if (currentPage === 'Rhythm') {
-            return <Rhythm />
-        }
-
-        if (currentPage === 'Scales') {
-            return <Scales />
-        }
-    }
-
-    const handlePageChange = (page) => setCurrentPage(page);
-
     return (
         <ApolloProvider client={client}>
             <Router>
