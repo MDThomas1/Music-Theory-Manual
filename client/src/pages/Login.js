@@ -47,6 +47,11 @@ const Login = (props) => {
                     <button type='submit'>Submit</button>
                 </form>
             </div>
+            <div>
+                <button type='click'>
+                    <Link to='/signup'>Create an account</Link>
+                </button>
+            </div>
         </div>
     )
 }
