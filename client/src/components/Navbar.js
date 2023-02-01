@@ -4,42 +4,42 @@ import { Link } from 'react-router-dom';
 
 import Auth from '../utils/auth'
 
-const Navbar = ({ currentPage, handlePageChange }) => {
+const Navbar = () => {
     return (
         <div className='navbar'>
             <ul className='navlist'>
                 <li className='nav-item'>
-                    <a href='#intro' onClick={() => handlePageChange('Intro')}>Introduction</a>
+                    <Link to='/intro'>Introduction</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href='#notation' onClick={() => handlePageChange('Notation')}>Basic Music Notation</a>
+                    <Link to='/notation'>Music Notation</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href='#rhythm' onClick={() => handlePageChange('Rhythm')}>Rhythm</a>
+                    <Link to='/rhythm'>Rhythm</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href='#intervals' onClick={() => handlePageChange('Intervals')}>Intervals</a>
+                    <Link to='/intervals'>Intervals</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href='#scales' onClick={() => handlePageChange('Scales')}>Scales</a>
+                    <Link to='/scales'>Scales</Link>
                 </li>
                 <li className='nav-item'>
-                    <a href='#chords' onClick={() => handlePageChange('Chords')}>Chords</a>
+                    <Link to='/chords'>Chords</Link>
                 </li>
                 {
                     Auth.loggedIn() ?
-                    <div className=''>
+                    <div className='loggedIn'>
                         <li className='nav-item'>
-                            <a href='#chords' onClick={() => handlePageChange('Profile')}>Profile</a>
+                            <Link to='/profile'>Profile</Link>
                         </li>
                     </div>
                     :
-                    <div>
+                    <div className='loggedOut'>
                         <li className='nav-item'>
-                            <a href='#chords' onClick={() => handlePageChange('Login')}>Login</a>
+                            <Link to='/login'>Login</Link>
                         </li>
                         <li className='nav-item'>
-                            <a href='#chords' onClick={() => handlePageChange('Signup')}>Sign Up</a>
+                            <Link to='/signup'>Sign Up</Link>
                         </li>
                     </div>
                 }
