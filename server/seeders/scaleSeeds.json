@@ -1,84 +1,84 @@
 [
     {
         "name": "Ionian/Major",
-        "structure": "",
+        "structure": "Tone, Tone, Semitone, Tone, Tone, Tone, Semitone",
         "description": "",
         "image": "",
         "subsection": "Major Modes"
     },
     {
         "name": "Dorian",
-        "structure": "",
+        "structure": "Tone, Semitone, Tone, Tone, Tone, Semitone, Tone",
         "description": "",
         "image": "",
         "subsection": "Major Modes"
     },
     {
         "name": "Phrygian",
-        "structure": "",
+        "structure": "Semitone, Tone, Tone, Tone, Semitone, Tone, Tone",
         "description": "",
         "image": "",
         "subsection": "Major Modes"
     },
     {
         "name": "Lydian",
-        "structure": "",
+        "structure": "Tone, Tone, Tone, Semitone, Tone, Tone, Semitone",
         "description": "",
         "image": "",
         "subsection": "Major Modes"
     },
     {
         "name": "Mixolydian",
-        "structure": "",
+        "structure": "Tone, Tone, Semitone, Tone, Tone, Semitone, Tone",
         "description": "",
         "image": "",
         "subsection": "Major Modes"
     },
     {
         "name": "Aeolian/Natural Minor",
-        "structure": "",
+        "structure": "Tone, Semitone, Tone, Tone, Semitone, Tone, Tone",
         "description": "",
         "image": "",
         "subsection": "Major Modes"
     },
     {
         "name": "Locrian",
-        "structure": "",
+        "structure": "Semitone, Tone, Tone, Semitone, Tone, Tone, Tone",
         "description": "",
         "image": "",
         "subsection": "Major Modes"
     },
     {
         "name": "Major Pentatonic",
-        "structure": "",
+        "structure": "Tone, Tone, Minor 3rd, Tone, Minor 3rd",
         "description": "",
         "image": "",
         "subsection": "Pentatonic Scales"
     },
     {
         "name": "Minor Pentatonic",
-        "structure": "",
+        "structure": "Minor 3rd, Tone, Tone, Minor 3rd, Tone",
         "description": "",
         "image": "",
         "subsection": "Pentatonic Scales"
     },
     {
         "name": "Blues Scale",
-        "structure": "",
+        "structure": "Minor 3rd, Tone, Semitone, Semitone, Minor 3rd, Tone",
         "description": "",
         "image": "",
         "subsection": "Other Useful Scales"
     },
     {
         "name": "Harmonic Minor",
-        "structure": "",
+        "structure": "Tone, Semitone, Tone, Tone, Semitone, Minor 3rd, Semitone",
         "description": "",
         "image": "",
         "subsection": "Other Useful Scales"
     },
     {
         "name": "Melodic Minor",
-        "structure": "",
+        "structure": "Tone, Semitone, Tone, Tone, Tone, Tone, Semitone",
         "description": "",
         "image": "",
         "subsection": "Other Useful Scales"
