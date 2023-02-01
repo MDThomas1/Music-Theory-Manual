@@ -29,7 +29,7 @@ type Interval: {
     name: String!
     description: String!
     image: String!
-    referenceSongs: [String]!
+    referenceSongs: String!
     subsection: String!
 }
 
