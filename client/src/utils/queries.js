@@ -28,7 +28,7 @@ query intervals {
         name
         description
         image
-        referenceSongs
+        referenceSong
         subsection
     }
 }`
