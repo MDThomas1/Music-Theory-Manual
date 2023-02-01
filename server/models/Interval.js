@@ -13,7 +13,10 @@ const intervalSchema = new Schema({
         type: String,
         required: true
     },
-    referenceSongs: [String],
+    referenceSong: {
+        type: String,
+        required: true
+    },
     subsection: {
         type: String,
         required: true
