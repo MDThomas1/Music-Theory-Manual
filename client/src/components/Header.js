@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Header = ({ currentPage, handlePageChange }) => {
+const Header = () => {
     <header>
-        <h1 className='heading'>
-            <a href='#home' onClick={() => handlePageChange('Home')}>Music Theory Manual</a>
-        </h1>
+        <Link to='/'>
+            <h1>Music Theory Manual</h1>
+        </Link>
     </header>
 }
 
