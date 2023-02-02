@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChordScaleCard = (props) => {
+const RhythmSymbolCard = (props) => {
     return (
         <div className='card'>
             <img src={props.image} />
@@ -10,4 +10,4 @@ const ChordScaleCard = (props) => {
     )
 }
 
-export default ChordScaleCard
+export default RhythmSymbolCard

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChordScaleCard = (props) => {
+const IntervalCard = (props) => {
     return (
         <div className='card'>
             <img src={props.image} />
@@ -11,4 +11,4 @@ const ChordScaleCard = (props) => {
     )
 }
 
-export default ChordScaleCard
+export default IntervalCard
