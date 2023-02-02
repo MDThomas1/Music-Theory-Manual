@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { QUERY_INTERVALS } from '../utils/queries';
+
 const Intervals = () => {
     return (
         <div id='intervals'>

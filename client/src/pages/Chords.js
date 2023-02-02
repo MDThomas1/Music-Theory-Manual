@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { QUERY_CHORDS } from '../utils/queries';
+
 const Chords = () => {
     return (
         <div id='chords'>
