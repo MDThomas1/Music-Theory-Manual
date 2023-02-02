@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { QUERY_SYMBOLS } from '../utils/queries';
+
 const Notation = () => {
     return (
         <div id='notation'>

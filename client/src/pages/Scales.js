@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { QUERY_SCALES } from '../utils/queries';
+
+
 const Scales = () => {
     return (
         <div id='scales'>

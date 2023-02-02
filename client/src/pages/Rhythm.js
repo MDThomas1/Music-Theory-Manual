@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { QUERY_RHYTHMS } from '../utils/queries';
+
+
 const Rhythm = () => {
     return (
         <div id='rhythm'>
