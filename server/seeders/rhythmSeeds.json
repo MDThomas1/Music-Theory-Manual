@@ -82,5 +82,17 @@
         "description": "",
         "image": "",
         "subsection": "Triplets"
+    },
+    {
+        "name": "Tie",
+        "description": "",
+        "image": "",
+        "subsection": "Additions"
+    },
+    {
+        "name": "Dot",
+        "description": "",
+        "image": "",
+        "subsection": "Additions"
     }
 ]
