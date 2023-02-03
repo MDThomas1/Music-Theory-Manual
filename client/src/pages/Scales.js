@@ -21,7 +21,6 @@ const Scales = () => {
             </div>
             <div id='useful-scales'>
                 <h4>Other Useful Scales</h4>
-                <p></p>
                 <OtherScaleList />
             </div>
         </div>
