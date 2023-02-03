@@ -28,20 +28,13 @@ const Navbar = () => {
                 </li>
                 {
                     Auth.loggedIn() ?
-                    <div className='loggedIn'>
-                        <li className='nav-item'>
-                            <Link to='/profile'>Profile</Link>
-                        </li>
-                    </div>
+                    <li className='nav-item'>
+                        <Link to='/profile'>Profile</Link>
+                    </li>
                     :
-                    <div className='loggedOut'>
-                        <li className='nav-item'>
-                            <Link to='/login'>Login</Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='/signup'>Sign Up</Link>
-                        </li>
-                    </div>
+                    <li className='nav-item'>
+                        <Link to='/login'>Login</Link>
+                    </li>
                 }
             </ul>
         </div>
