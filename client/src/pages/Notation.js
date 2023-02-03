@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { QUERY_SYMBOLS } from '../utils/queries';
+import ClefList from '../components/ClefList'
+import AccidentalList from '../components/AccidentalList'
+import KeySignatureList from '../components/KeySignatureList'
 
 const Notation = () => {
     return (
@@ -10,14 +12,17 @@ const Notation = () => {
             <div id='clefs'>
                 <h4>Clefs</h4>
                 <p></p>
+                <ClefList />
             </div>
             <div id='accidentals'>
                 <h4>Accidentals</h4>
                 <p></p>
+                <AccidentalList />
             </div>
             <div id='key-signatures'>
                 <h4>Key Signatures</h4>
                 <p></p>
+                <KeySignatureList />
             </div>
             <div id='time-signatures'>
                 <h4>Time Signatures</h4>
