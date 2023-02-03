@@ -4,3 +4,9 @@ import ChordScaleCard from './Chord-Scale-Card'
 
 import { QUERY_PENTATONICS } from '../utils/queries';
 import { useQuery } from '@apollo/client';
+
+const PentatonicList = () => {
+
+}
+
+export default PentatonicList

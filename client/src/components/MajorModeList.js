@@ -4,3 +4,9 @@ import ChordScaleCard from './Chord-Scale-Card'
 
 import { QUERY_MAJOR_MODES } from '../utils/queries';
 import { useQuery } from '@apollo/client';
+
+const MajorModeList = () => {
+
+}
+
+export default MajorModeList
