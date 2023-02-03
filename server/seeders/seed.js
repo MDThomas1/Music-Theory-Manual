@@ -54,6 +54,9 @@ db.once('open', async () => {
         await Triplet.deleteMany({});
         await Triplet.create();
 
+        await RhythmAddition.deleteMany({});
+        await RhythmAddition.create();
+
         await PerfectInterval.deleteMany({});
         await PerfectInterval.create();
 
