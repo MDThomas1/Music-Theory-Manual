@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const scaleSchema = new Schema({
+const majorModeSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -23,6 +23,6 @@ const scaleSchema = new Schema({
     }
 })
 
-const Scale = model('Scale', scaleSchema)
+const MajorMode = model('MajorMode', majorModeSchema)
 
-module.exports = Scale
+module.exports = MajorMode
