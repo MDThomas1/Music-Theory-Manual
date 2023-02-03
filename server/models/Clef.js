@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const symbolSchema = new Schema({
+const clefSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -19,6 +19,6 @@ const symbolSchema = new Schema({
     }
 })
 
-const Symbol = model('Symbol', symbolSchema)
+const Clef = model('Clef', clefSchema)
 
-module.exports = Symbol
+module.exports = Clef
