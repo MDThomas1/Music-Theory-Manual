@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const rhythmSchema = new Schema({
+const tripletSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -15,6 +15,6 @@ const rhythmSchema = new Schema({
     }
 })
 
-const Rhythm = model('Rhythm', rhythmSchema)
+const Triplet = model('Triplet', tripletSchema)
 
-module.exports = Rhythm 
+module.exports = Triplet

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Major 7th",
+        "structure": "Major 3rd, Minor 3rd, Major 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Minor 7th",
+        "structure": "Minor 3rd, Major 3rd, Minor 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Dominant 7th",
+        "structure": "Major 3rd, Minor 3rd, Minor 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Minor Major 7th",
+        "structure": "Minor 3rd, Major 3rd, Major 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Half Diminshed Chord",
+        "structure": "Minor 3rd, Minor 3rd, Major 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Full Diminished Chord",
+        "structure": "Minor 3rd, Minor 3rd, Minor 3rd",
+        "description": "",
+        "image": ""
+    }
+]

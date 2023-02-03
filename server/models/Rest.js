@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const rhythmSchema = new Schema({
+const restSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -15,6 +15,6 @@ const rhythmSchema = new Schema({
     }
 })
 
-const Rhythm = model('Rhythm', rhythmSchema)
+const Rest = model('Rest', restSchema)
 
-module.exports = Rhythm 
+module.exports = Rest

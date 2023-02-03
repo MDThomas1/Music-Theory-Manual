@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Major Pentatonic",
+        "structure": "Tone, Tone, Minor 3rd, Tone, Minor 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Minor Pentatonic",
+        "structure": "Minor 3rd, Tone, Tone, Minor 3rd, Tone",
+        "description": "",
+        "image": ""
+    }
+]

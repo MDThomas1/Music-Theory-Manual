@@ -1,7 +1,11 @@
 const { Schema, model } = require('mongoose');
 
-const rhythmSchema = new Schema({
+const seventhChordSchema = new Schema({
     name: {
+        type: String,
+        required: true
+    },
+    structure: {
         type: String,
         required: true
     },
@@ -15,6 +19,6 @@ const rhythmSchema = new Schema({
     }
 })
 
-const Rhythm = model('Rhythm', rhythmSchema)
+const SeventhChord = model('SeventhChord', seventhChordSchema)
 
-module.exports = Rhythm 
+module.exports = SeventhChord

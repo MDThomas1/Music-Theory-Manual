@@ -9,15 +9,12 @@ const Intervals = () => {
             <p></p>
             <div id='perfect-intervals'>
                 <h4>Perfect Intervals</h4>
-                <p></p>
             </div>
             <div id='major-intervals'>
                 <h4>Major Intervals</h4>
-                <p></p>
             </div>
             <div id='minor-intervals'>
                 <h4>Minor Intervals</h4>
-                <p></p>
             </div>
             <div id='tritone'>
             </div>

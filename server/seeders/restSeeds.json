@@ -1,26 +1,26 @@
 [
     {
-        "name": "Semibreve/Whole Note",
+        "name": "Semibreve/Whole Note Rest",
         "description": "",
         "image": ""
     },
     {
-        "name": "Minum/Half Note",
+        "name": "Minum/Half Note Rest",
         "description": "",
         "image": ""
     },
     {
-        "name": "Crotchet/Quarter Note",
+        "name": "Crotchet/Quarter Note Rest",
         "description": "",
         "image": ""
     },
     {
-        "name": "Quaver/Eighth Note",
+        "name": "Quaver/Eighth Note Rest",
         "description": "",
         "image": ""
     },
     {
-        "name": "Semiquaver/Sixteenth Note",
+        "name": "Semiquaver/Sixteenth Note Rest",
         "description": "",
         "image": ""
     }

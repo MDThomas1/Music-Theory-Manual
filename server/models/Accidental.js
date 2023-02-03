@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const rhythmSchema = new Schema({
+const accidentalSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -15,6 +15,6 @@ const rhythmSchema = new Schema({
     }
 })
 
-const Rhythm = model('Rhythm', rhythmSchema)
+const Accidental = model('Accidental', accidentalSchema)
 
-module.exports = Rhythm 
+module.exports = Accidental

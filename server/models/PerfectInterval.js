@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const rhythmSchema = new Schema({
+const perfectIntervalSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -12,9 +12,13 @@ const rhythmSchema = new Schema({
     image: {
         type: String,
         required: true
+    },
+    referenceSong: {
+        type: String,
+        required: true
     }
 })
 
-const Rhythm = model('Rhythm', rhythmSchema)
+const PerfectInterval = model('PerfectInterval', perfectIntervalSchema)
 
-module.exports = Rhythm 
+module.exports = PerfectInterval

@@ -1,53 +1,5 @@
 [
     {
-        "name": "Treble Clef",
-        "description": "",
-        "image": "",
-        "subsection": "Clefs"
-    },
-    {
-        "name": "Bass Clef",
-        "description": "",
-        "image": "",
-        "subsection": "Clefs"
-    },
-    {
-        "name": "Percussion Clef",
-        "description": "",
-        "image": "",
-        "subsection": "Clefs"
-    },
-    {
-        "name": "Sharp",
-        "description": "",
-        "image": "",
-        "subsection": "Accidentals"
-    },
-    {
-        "name": "Flat",
-        "description": "",
-        "image": "",
-        "subsection": "Accidentals"
-    },
-    {
-        "name": "Natural",
-        "description": "",
-        "image": "",
-        "subsection": "Accidentals"
-    },
-    {
-        "name": "Double Sharp",
-        "description": "",
-        "image": "",
-        "subsection": "Accidentals"
-    },
-    {
-        "name": "Double Flat",
-        "description": "",
-        "image": "",
-        "subsection": "Accidentals"
-    },
-    {
         "name": "C major/A minor",
         "description": "",
         "image": "",

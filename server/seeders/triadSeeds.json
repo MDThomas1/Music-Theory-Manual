@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Major",
+        "structure": "Major 3rd, Minor 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Minor",
+        "structure": "Minor 3rd, Major 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Diminished",
+        "structure": "Minor 3rd, Minor 3rd",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Augmented",
+        "structure": "Major 3rd, Minor 3rd",
+        "description": "",
+        "image": ""
+    }
+]

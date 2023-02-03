@@ -1,7 +1,11 @@
 const { Schema, model } = require('mongoose');
 
-const intervalSchema = new Schema({
+const sixthChordSchema = new Schema({
     name: {
+        type: String,
+        required: true
+    },
+    structure: {
         type: String,
         required: true
     },
@@ -12,17 +16,9 @@ const intervalSchema = new Schema({
     image: {
         type: String,
         required: true
-    },
-    referenceSong: {
-        type: String,
-        required: true
-    },
-    subsection: {
-        type: String,
-        required: true
     }
 })
 
-const Interval = model('Interval', intervalSchema)
+const SixthChord = model('SixthCord', sixthChordSchema)
 
-module.exports = Interval
+module.exports = SixthChord

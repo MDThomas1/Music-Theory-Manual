@@ -15,22 +15,25 @@ type User {
     notes: [Note]
 }
 
-type Chord {
+type Clef: {
     _id: ID
     name: String!
-    structure: String!
     description: String!
     image: String!
-    subsection: String!
 }
 
-type Interval: {
+type Accidental: {
     _id: ID
     name: String!
     description: String!
     image: String!
-    referenceSong: String!
-    subsection: String!
+}
+
+type KeySignature: {
+    _id: ID
+    name: String!
+    description: String!
+    image: String!
 }
 
 type Rhythm: {
@@ -38,24 +41,107 @@ type Rhythm: {
     name: String!
     description: String!
     image: String!
-    subsection: String!
 }
 
-type Scale: {
+type Rest: {
+    _id: ID
+    name: String!
+    description: String!
+    image: String!
+}
+
+type Triplet: {
+    _id: ID
+    name: String!
+    description: String!
+    image: String!
+}
+
+type RhythmAddition: {
+    _id: ID
+    name: String!
+    description: String!
+    image: String!
+}
+
+type MajorMode: {
     _id: ID
     name: String!
     structure: String!
     description: String!
     image: String!
-    subsection: String!
 }
 
-type Symbol: {
+type Pentatonic: {
+    _id: ID
+    name: String!
+    structure: String!
+    description: String!
+    image: String!
+}
+
+type OtherScale: {
+    _id: ID
+    name: String!
+    structure: String!
+    description: String!
+    image: String!
+}
+
+type Perfect Interval: {
     _id: ID
     name: String!
     description: String!
     image: String!
-    subsection: String!
+    referenceSong: String!
+}
+
+type Major Interval: {
+    _id: ID
+    name: String!
+    description: String!
+    image: String!
+    referenceSong: String!
+}
+
+type Minor Interval: {
+    _id: ID
+    name: String!
+    description: String!
+    image: String!
+    referenceSong: String!
+}
+
+type Triad {
+    _id: ID
+    name: String!
+    structure: String!
+    description: String!
+    image: String!
+}
+
+type SusChord {
+    _id: ID
+    name: String!
+    structure: String!
+    description: String!
+    image: String!
+}
+
+type SixthChord {
+    _id: ID
+    name: String!
+    structure: String!
+    description: String!
+    image: String!
+}
+
+type SeventhChord {
+    _id: ID
+    name: String!
+    structure: String!
+    description: String!
+    image: String!
 }
 
 type Auth {
@@ -64,12 +150,24 @@ type Auth {
 }
 
 type Query {
-    me: Profile
-    chords: [Chord]!
-    intervals: [Interval]!
-    rhythms: [Rhythm]!
-    scales: [Scale]!
-    symbols: [Symbol]!
+    me: Profile!
+    clefs: [Clef!]
+    accidentals: [Accidental!]
+    keySignatures: [KeySignature!]
+    rhythms: [Rhythm!]
+    rests: [Rest!]
+    triplets: [Triplet!]
+    rhythmAdditions: [RhythmAddition!]
+    perfectIntervals: [PerfectInterval!]
+    majorIntervals: [MajorInterval!]
+    minorIntervals: [MinorInterval!]
+    majorModes: [MajorMode!]
+    pentatonics: [Pentatonic!]
+    otherScales: [OtherScale!]
+    triads: [Triad!]
+    susChords: [SusChord!]
+    sixthChords: [SixthChord!]
+    seventhChords: [SeventhChord!]
 }
 
 type Mutation {

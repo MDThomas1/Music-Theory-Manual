@@ -1,7 +1,11 @@
 const { Schema, model } = require('mongoose');
 
-const symbolSchema = new Schema({
+const majorModeSchema = new Schema({
     name: {
+        type: String,
+        required: true
+    },
+    structure: {
         type: String,
         required: true
     },
@@ -12,13 +16,9 @@ const symbolSchema = new Schema({
     image: {
         type: String,
         required: true
-    },
-    subsection: {
-        type: String,
-        required: true
     }
 })
 
-const Symbol = model('Symbol', symbolSchema)
+const MajorMode = model('MajorMode', majorModeSchema)
 
-module.exports = Symbol
+module.exports = MajorMode

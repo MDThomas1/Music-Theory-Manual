@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const chordSchema = new Schema({
+const otherScaleSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -16,13 +16,9 @@ const chordSchema = new Schema({
     image: {
         type: String,
         required: true
-    },
-    subsection: {
-        type: String,
-        required: true
     }
 })
 
-const Chord = model('Chord', chordSchema)
+const OtherScale = model('OtherScale', otherScaleSchema)
 
-module.exports = Chord
+module.exports = OtherScale

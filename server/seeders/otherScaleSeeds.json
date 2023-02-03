@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Blues Scale",
+        "structure": "Minor 3rd, Tone, Semitone, Semitone, Minor 3rd, Tone",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Harmonic Minor",
+        "structure": "Tone, Semitone, Tone, Tone, Semitone, Minor 3rd, Semitone",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Melodic Minor",
+        "structure": "Tone, Semitone, Tone, Tone, Tone, Tone, Semitone",
+        "description": "",
+        "image": ""
+    }
+]

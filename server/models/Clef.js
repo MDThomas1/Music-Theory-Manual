@@ -1,11 +1,7 @@
 const { Schema, model } = require('mongoose');
 
-const scaleSchema = new Schema({
+const clefSchema = new Schema({
     name: {
-        type: String,
-        required: true
-    },
-    structure: {
         type: String,
         required: true
     },
@@ -16,13 +12,9 @@ const scaleSchema = new Schema({
     image: {
         type: String,
         required: true
-    },
-    subsection: {
-        type: String,
-        required: true
     }
 })
 
-const Scale = model('Scale', scaleSchema)
+const Clef = model('Clef', clefSchema)
 
-module.exports = Scale
+module.exports = Clef

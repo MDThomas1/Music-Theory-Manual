@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const rhythmSchema = new Schema({
+const keySigSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -15,6 +15,6 @@ const rhythmSchema = new Schema({
     }
 })
 
-const Rhythm = model('Rhythm', rhythmSchema)
+const KeySignature = model('KeySignature', keySigSchema)
 
-module.exports = Rhythm 
+module.exports = KeySignature

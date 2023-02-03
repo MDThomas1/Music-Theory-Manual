@@ -1,26 +1,26 @@
 [
     {
-        "name": "Semibreve/Whole Note",
+        "name": "Sharp",
         "description": "",
         "image": ""
     },
     {
-        "name": "Minum/Half Note",
+        "name": "Flat",
         "description": "",
         "image": ""
     },
     {
-        "name": "Crotchet/Quarter Note",
+        "name": "Natural",
         "description": "",
         "image": ""
     },
     {
-        "name": "Quaver/Eighth Note",
+        "name": "Double Sharp",
         "description": "",
         "image": ""
     },
     {
-        "name": "Semiquaver/Sixteenth Note",
+        "name": "Double Flat",
         "description": "",
         "image": ""
     }
