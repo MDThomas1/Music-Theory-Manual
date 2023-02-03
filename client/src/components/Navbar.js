@@ -9,9 +9,6 @@ const Navbar = () => {
         <div className='navbar'>
             <ul className='navlist'>
                 <li className='nav-item'>
-                    <Link to='/intro'>Introduction</Link>
-                </li>
-                <li className='nav-item'>
                     <Link to='/notation'>Music Notation</Link>
                 </li>
                 <li className='nav-item'>
