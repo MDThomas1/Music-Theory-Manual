@@ -2,97 +2,26 @@
     {
         "name": "Semibreve/Whole Note",
         "description": "",
-        "image": "",
-        "subsection": "Notes"
+        "image": ""
     },
     {
         "name": "Minum/Half Note",
         "description": "",
-        "image": "",
-        "subsection": "Notes"
+        "image": ""
     },
     {
         "name": "Crotchet/Quarter Note",
         "description": "",
-        "image": "",
-        "subsection": "Notes"
+        "image": ""
     },
     {
         "name": "Quaver/Eighth Note",
         "description": "",
-        "image": "",
-        "subsection": "Notes"
+        "image": ""
     },
     {
         "name": "Semiquaver/Sixteenth Note",
         "description": "",
-        "image": "",
-        "subsection": "Notes"
-    },
-    {
-        "name": "Semibreve/Whole Note Rest",
-        "description": "",
-        "image": "",
-        "subsection": "Rests"
-    },
-    {
-        "name": "Minum/Half Note Rest",
-        "description": "",
-        "image": "",
-        "subsection": "Rests"
-    },
-    {
-        "name": "Crotchet/Quarter Note Rest",
-        "description": "",
-        "image": "",
-        "subsection": "Rests"
-    },
-    {
-        "name": "Quaver/Eighth Note Rest",
-        "description": "",
-        "image": "",
-        "subsection": "Rests"
-    },
-    {
-        "name": "Semiquaver/Sixteenth Note Rest",
-        "description": "",
-        "image": "",
-        "subsection": "Rests"
-    },
-    {
-        "name": "Minum/Half Note Triplet",
-        "description": "",
-        "image": "",
-        "subsection": "Triplets"
-    },
-    {
-        "name": "Crotchet/Quarter Note Triplet",
-        "description": "",
-        "image": "",
-        "subsection": "Triplets"
-    },
-    {
-        "name": "Quaver/Eighth Note Triplet",
-        "description": "",
-        "image": "",
-        "subsection": "Triplets"
-    },
-    {
-        "name": "Semiquaver/Sixteenth Note Triplet",
-        "description": "",
-        "image": "",
-        "subsection": "Triplets"
-    },
-    {
-        "name": "Tie",
-        "description": "",
-        "image": "",
-        "subsection": "Additions"
-    },
-    {
-        "name": "Dot",
-        "description": "",
-        "image": "",
-        "subsection": "Additions"
+        "image": ""
     }
 ]
