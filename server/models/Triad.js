@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const chordSchema = new Schema({
+const triadSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -23,6 +23,6 @@ const chordSchema = new Schema({
     }
 })
 
-const Chord = model('Chord', chordSchema)
+const Triad = model('Triad', triadSchema)
 
-module.exports = Chord
+module.exports = Triad
