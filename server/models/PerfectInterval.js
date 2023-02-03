@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const intervalSchema = new Schema({
+const perfectIntervalSchema = new Schema({
     name: {
         type: String,
         required: true
@@ -23,6 +23,6 @@ const intervalSchema = new Schema({
     }
 })
 
-const Interval = model('Interval', intervalSchema)
+const PerfectInterval = model('PerfectInterval', perfectIntervalSchema)
 
-module.exports = Interval
+module.exports = PerfectInterval
