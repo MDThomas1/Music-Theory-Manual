@@ -3,91 +3,24 @@
         "name": "Perfect Unison",
         "description": "",
         "image": "",
-        "referenceSong": "Imperial March by John Williams",
-        "subsection": "Perfect Intervals"
+        "referenceSong": "Imperial March by John Williams"
     },
     {
         "name": "Perfect Octave",
         "description": "",
         "image": "",
-        "referenceSong": "Somewhere Over the Rainbow",
-        "subsection": "Perfect Intervals"
+        "referenceSong": "Somewhere Over the Rainbow"
     },
     {
         "name": "Perfect 5th",
         "description": "",
         "image": "",
-        "referenceSong": "Can't Help Falling In Love by Elvis Presley",
-        "subsection": "Perfect Intervals"
+        "referenceSong": "Can't Help Falling In Love by Elvis Presley"
     },
     {
         "name": "Perfect 4th",
         "description": "",
         "image": "",
-        "referenceSong": "We Wish You a Merry Christmas",
-        "subsection": "Perfect Intervals"
-    },
-    {
-        "name": "Major 2nd",
-        "description": "",
-        "image": "",
-        "referenceSong": "Frère Jacques",
-        "subsection": "Major Intervals"
-    },
-    {
-        "name": "Major 3rd",
-        "description": "",
-        "image": "",
-        "referenceSong": "When the Saints Go Marching In",
-        "subsection": "Major Intervals"
-    },
-    {
-        "name": "Major 6th",
-        "description": "",
-        "image": "",
-        "referenceSong": "My Bonnie Lies Over the Ocean",
-        "subsection": "Major Intervals"
-    },
-    {
-        "name": "Major 7th",
-        "description": "",
-        "image": "",
-        "referenceSong": "Take On Me by Aha",
-        "subsection": "Major Intervals"
-    },
-    {
-        "name": "Minor 2nd",
-        "description": "",
-        "image": "",
-        "referenceSong": "Jaws Theme",
-        "subsection": "Minor Intervals"
-    },
-    {
-        "name": "Minor 3rd",
-        "description": "",
-        "image": "",
-        "referenceSong": "Georgia on my Mind",
-        "subsection": "Minor Intervals"
-    },
-    {
-        "name": "Minor 6th",
-        "description": "",
-        "image": "",
-        "referenceSong": "Go Down Moses",
-        "subsection": "Minor Intervals"
-    },
-    {
-        "name": "Minor 7th",
-        "description": "",
-        "image": "",
-        "referenceSong": "Original Star Trek Theme",
-        "subsection": "Minor Intervals"
-    },
-    {
-        "name": "Tritone",
-        "description": "",
-        "image": "",
-        "referenceSong": "YYZ by Rush (Opening)",
-        "subsection": "Tritone"
+        "referenceSong": "We Wish You a Merry Christmas"
     }
 ]
