@@ -16,7 +16,6 @@ import Signup from './pages/Signup'
 
 import Chords from './pages/Chords'
 import Intervals from './pages/Intervals'
-import Intro from './pages/Intro'
 import Notation from './pages/Notation'
 import Rhythm from './pages/Rhythm'
 import Scales from './pages/Scales'
@@ -57,7 +56,6 @@ function App() {
                         <Route path='/signup' element={<Signup />} />
                         <Route path='/chords' element={<Chords />} />
                         <Route path='/intervals' element={<Intervals />} />
-                        <Route path='/intro' element={<Intro />} />
                         <Route path='/notation' element={<Notation />} />
                         <Route path='/rhythm' element={<Rhythm />} />
                         <Route path='/scales' element={<Scales />} />
