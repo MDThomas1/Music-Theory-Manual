@@ -8,6 +8,7 @@ const {
     Rhythm, 
     Rest, 
     Triplet, 
+    RhythmAddition,
     PerfectInterval, 
     MajorInterval, 
     MinorInterval, 
@@ -22,7 +23,13 @@ const {
 
 const userSeeds = require('./userSeeds.json');
 
+const clefSeeds = require('./clefSeeds.json')
+const accidentalSeeds = require('./accidentalSeeds.json')
+const keySigSeeds = require('./keySigSeeds.json')
+
 const rhythmSeeds = require('./rhythmSeeds.json');
+const restSeeds = require('./restSeeds.json')
+
 
 db.once('open', async () => {
     try {

@@ -8,6 +8,7 @@ const KeySignature = require('./KeySig')
 const Rhythm = require('./Rhythm')
 const Rest = require('./Rest')
 const Triplet = require('./Triplet')
+const RhythmAddition = require('./RhythmAddition')
 
 const PerfectInterval = require('./PerfectInterval')
 const MajorInterval = require('./MajorInterval')
@@ -31,6 +32,7 @@ module.exports = {
     Rhythm, 
     Rest, 
     Triplet, 
+    RhythmAddition,
     PerfectInterval, 
     MajorInterval, 
     MinorInterval, 
