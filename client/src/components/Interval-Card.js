@@ -6,7 +6,7 @@ const IntervalCard = (props) => {
             <img src={props.image} />
             <h4>{props.name}</h4>
             <p>{props.description}</p>
-            <p>A good reference song for this interval is {props.referenceSong}</p>
+            <p>Reference Song: {props.referenceSong}</p>
         </div>
     )
 }
