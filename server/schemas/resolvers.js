@@ -1,11 +1,23 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { 
-    User,
-    Chord,
-    Interval,
-    Rhythm,
-    Scale,
-    Symbol
+    User, 
+    Clef, 
+    Accidental, 
+    KeySignature, 
+    Rhythm, 
+    Rest, 
+    Triplet, 
+    RhythmAddition,
+    PerfectInterval, 
+    MajorInterval, 
+    MinorInterval, 
+    MajorMode, 
+    Pentatonic, 
+    OtherScale, 
+    Triad, 
+    SusChord, 
+    SixthChord, 
+    SeventhChord 
 } = require('../models');
 const { signToken } = require('../utils/auth');
 
@@ -19,24 +31,72 @@ const resolvers = {
             throw new AuthenticationError("It appears you aren't currently logged in!")
         },
 
-        chords: async () => {
-            return Chord.find();
+        clefs: async () => {
+            return Clef.find();
         },
 
-        intervals: async () => {
-            return Interval.find()
+        accidentals: async () => {
+            return Accidental.find();
+        },
+
+        keySignatures: async () => {
+            return KeySignature.find();
         },
 
         rhythms: async () => {
-            return Rhythm.find()
+            return Rhythm.find();
         },
 
-        scales: async () => {
-            return Scale.find()
+        rests: async () => {
+            return Rest.find();
         },
 
-        symbols: async () => {
-            return Symbol.find()
+        triplets: async () => {
+            return Triplet.find();
+        },
+
+        rhythmAdditions: async () => {
+            return RhythmAddition.find();
+        },
+
+        perfectIntervals: async () => {
+            return PerfectInterval.find();
+        },
+
+        majorIntervals: async () => {
+            return MajorInterval.find();
+        },
+
+        minorIntervals: async () => {
+            return MinorInterval.find();
+        },
+
+        majorModes: async () => {
+            return MajorMode.find();
+        },
+
+        pentatonics: async () => {
+            return Pentatonic.find();
+        },
+
+        otherScales: async () => {
+            return OtherScale.find();
+        },
+
+        triads: async () => {
+            return Triad.find();
+        },
+
+        susChords: async () => {
+            return SusChord.find();
+        },
+
+        sixthChords: async () => {
+            return SixthChord.find();
+        },
+
+        seventhChords: async () => {
+            return SeventhChord.find();
         }
     },
 
