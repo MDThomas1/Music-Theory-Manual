@@ -1,6 +1,6 @@
 # Music-Theory-Manual
 ## Description
-Music Theory Manual is an online music application that, once you either login and create an account, allows you unlimited access to information on a variety of topics relating to essential music theory concepts. Tests are also available to do at the end of topics in order to test your knowledge. On top of that, it also acts as a study app as you will be able to set yourself a list of what you want to look into on the app and track your test results through your own profile page. 
+Music Theory Manual is an online music application that, once you either login and create an account, allows you unlimited access to information on a variety of topics relating to essential music theory concepts. On top of that, it also acts as a study app as you will be able to set yourself a list of what you want to look into on the app and track your test results through your own profile page. 
 
 ## Table of Contents 
 * [Link to Deployed Site](#Link-to-Deployed-Site)
