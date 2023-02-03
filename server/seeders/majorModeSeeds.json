@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Ionian/Major",
+        "structure": "Tone, Tone, Semitone, Tone, Tone, Tone, Semitone",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Dorian",
+        "structure": "Tone, Semitone, Tone, Tone, Tone, Semitone, Tone",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Phrygian",
+        "structure": "Semitone, Tone, Tone, Tone, Semitone, Tone, Tone",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Lydian",
+        "structure": "Tone, Tone, Tone, Semitone, Tone, Tone, Semitone",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Mixolydian",
+        "structure": "Tone, Tone, Semitone, Tone, Tone, Semitone, Tone",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Aeolian/Natural Minor",
+        "structure": "Tone, Semitone, Tone, Tone, Semitone, Tone, Tone",
+        "description": "",
+        "image": ""
+    },
+    {
+        "name": "Locrian",
+        "structure": "Semitone, Tone, Tone, Semitone, Tone, Tone, Tone",
+        "description": "",
+        "image": ""
+    }
+]
