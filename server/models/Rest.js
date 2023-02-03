@@ -12,13 +12,9 @@ const restSchema = new Schema({
     image: {
         type: String,
         required: true
-    },
-    subsection: {
-        type: String,
-        required: true
     }
 })
 
-const Rest = model('Rhythm', restSchema)
+const Rest = model('Rest', restSchema)
 
 module.exports = Rest

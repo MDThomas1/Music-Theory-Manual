@@ -16,10 +16,6 @@ const majorIntervalSchema = new Schema({
     referenceSong: {
         type: String,
         required: true
-    },
-    subsection: {
-        type: String,
-        required: true
     }
 })
 

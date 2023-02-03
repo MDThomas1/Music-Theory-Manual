@@ -16,10 +16,6 @@ const otherScaleSchema = new Schema({
     image: {
         type: String,
         required: true
-    },
-    subsection: {
-        type: String,
-        required: true
     }
 })
 
