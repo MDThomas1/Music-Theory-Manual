@@ -13,7 +13,7 @@ import Auth from '../utils/auth'
 const Profile = () => {
     const { data } = useQuery(QUERY_ME)
 
-    const profile = data
+    const profile = data?.me
 
     const [note, setNote] = useState('')
 

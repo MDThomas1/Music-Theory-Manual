@@ -4,15 +4,23 @@ body {
 
 h1 {
     font-family: cursive;
+    margin-top: 20%;
+    margin-left: 15%;
+
 }
 
 h2,
 h3 {
     text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
+
 
 header {
     background-color: antiquewhite;
+    height: 75px;
 }
 
 form {

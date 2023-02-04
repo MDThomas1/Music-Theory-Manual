@@ -35,7 +35,7 @@ const NoteList = () => {
                 <div className='note'>
                     <p>{note.body}</p>
                     <p>Created on {note.createdAt}</p>
-                    <button onClick={() => {handleDeleteNote}}></button>
+                    <button type='click' onClick={() => {handleDeleteNote}}></button>
                 </div>
             })}
         </div>
