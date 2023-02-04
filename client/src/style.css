@@ -1,0 +1,121 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: cursive;
+    margin-top: 20%;
+    margin-left: 15%;
+
+}
+
+h2,
+h3 {
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+header {
+    background-color: antiquewhite;
+    height: 75px;
+}
+
+form {
+    border-color: black;
+    border-radius: 5px;
+    border-width: thick;
+}
+
+input {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+button {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 20%;
+}
+
+.navbar {
+    background-color: darkslategrey;
+}
+
+.notelist {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.note {
+    border-color: black;
+    border-radius: 5px;
+    border-width: thick;
+}
+
+.home {
+    text-align: center;
+}
+
+.page {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card {
+    border-color: black;
+    border-radius: 5px;
+    border-width: thick;
+    background-color: cornflowerblue;
+    display: inline-block;
+    min-width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card img {
+    min-height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 2px;
+    margin-left: 10%;
+    float: left;
+}
+
+.nav-item {
+    display: inline-block;
+    color: azure;
+}
+
+.information {
+    margin-bottom: 40px;
+}
+
+.nav-item:hover {
+    box-shadow: 0 0 10px azure;
+}
+
+@media screen and (max-width: 760px) {
+    .nav-item {
+        display: block;
+        text-align: center;
+    }
+    .card {
+        min-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+

@@ -41,13 +41,13 @@ const Signup = () => {
 
     return (
         <div className='page'>
-            <h3>Sign up</h3>
+            <h2>Sign up</h2>
             <div>
                 <form onSubmit={handleFormSubmit}>
                     <input placeholder='Enter your username here' name='name' type='text' value={formState.name} onChange={handleChange} />
                     <input placeholder='Enter your email here' name='email' type='email' value={formState.email} onChange={handleChange} />
                     <input placeholder='Enter your password here' name='password' type='password' value={formState.password} onChange={handleChange} />
-                    <button type='submit'>Submit</button>
+                    {data ? <Link to='/'>Sign in successful!</Link> : <button type='submit'>Submit</button>}
                 </form>
             </div>
         </div>

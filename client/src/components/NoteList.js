@@ -7,13 +7,13 @@ import { QUERY_ME } from '../../utils/queries';
 const NoteList = () => {
     const { data } = useQuery(QUERY_ME)
 
-    const profile = data
+    const profile = data?.me
 
     const [deleteNote, {error}] = useMutation(DELETE_NOTE)
 
     const handleDeleteNote = async (note) => {
         try {
-            const {data} = await deleteNote({
+            const { data } = await deleteNote({
                 variables: {note}
             })
         } catch (error) {
@@ -30,12 +30,12 @@ const NoteList = () => {
     }
 
     return (
-        <div>
+        <div className='notelist'>
             {profile.notes.map((note) => {
                 <div className='note'>
                     <p>{note.body}</p>
                     <p>Created on {note.createdAt}</p>
-                    <button onClick={() => {handleDeleteNote}}></button>
+                    <button type='click' onClick={() => {handleDeleteNote}}></button>
                 </div>
             })}
         </div>
