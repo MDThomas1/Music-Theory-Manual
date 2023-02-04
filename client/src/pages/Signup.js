@@ -41,7 +41,7 @@ const Signup = () => {
 
     return (
         <div className='page'>
-            <h3>Sign up</h3>
+            <h2>Sign up</h2>
             <div>
                 <form onSubmit={handleFormSubmit}>
                     <input placeholder='Enter your username here' name='name' type='text' value={formState.name} onChange={handleChange} />
