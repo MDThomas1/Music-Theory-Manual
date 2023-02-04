@@ -1,18 +1,13 @@
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
-type Note {
-    _id: ID
-    body: String
-    createdAt: Date
-}
 
 type User {
     _id: ID
     name: String!
     email: String!
     password: String!
-    notes: [Note]
+    notes: [String]
 }
 
 type Clef: {

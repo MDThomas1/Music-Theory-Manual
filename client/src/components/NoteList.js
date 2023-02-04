@@ -1,8 +1,9 @@
 import React from 'react';
-import { useMutation } from '@apollo/client';
+import { useMutation, useQuery } from '@apollo/client';
 
-import { DELETE_NOTE } from '../../utils/mutations';
-import { QUERY_ME } from '../../utils/queries';
+
+import { DELETE_NOTE } from '../utils/mutations';
+import { QUERY_ME } from '../utils/queries';
 
 const NoteList = () => {
     const { data } = useQuery(QUERY_ME)
