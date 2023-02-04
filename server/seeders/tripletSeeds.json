@@ -1,22 +1,22 @@
 [
     {
         "name": "Minum/Half Note Triplet",
-        "description": "",
+        "description": "A minum triplet is a grouping of three notes that evenly fits into a bar of 4/4, or the space taken up by two regular minums.",
         "image": ""
     },
     {
         "name": "Crotchet/Quarter Note Triplet",
-        "description": "",
+        "description": "A crotchet triplet is a grouping of three notes that evenly fits into half a bar of 4/4, or the space taken up by two regular crotchets.",
         "image": ""
     },
     {
         "name": "Quaver/Eighth Note Triplet",
-        "description": "",
+        "description": "A quaver triplet is a grouping of three notes that evenly fits into the space of a standard crotchet, or the space taken up by two regular quavers.",
         "image": ""
     },
     {
         "name": "Semiquaver/Sixteenth Note Triplet",
-        "description": "",
+        "description": "A seimquaver triplet is a grouping of three notes the evenly fits into the space of a standard quaver, or the space taken up by two regular semiquavers.",
         "image": ""
     }
 ]

@@ -1,92 +1,77 @@
 [
     {
         "name": "C major/A minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "C major, or A minor is the most basic key as it contains no accidentals. Because of this, it is the easiest key to read because everything is as it appears.",
+        "image": ""
     },
     {
         "name": "G major/E minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "G major, or E minor, is a commonly used key signature that only contains one sharp, that being F♯. Like C, its minimal content makes it very easy to read.",
+        "image": ""
     },
     {
         "name": "F major/D minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "F major, or D minor, is a commonly used key signature that only contains one flat, that being B♭. Like C, its minimal content makes it very easy to read.",
+        "image": ""
     },
     {
         "name": "D major/B minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "D major, or B minor, is a commonly used key signature that contains two sharps. The order of the sharps is always F♯ C♯. Like C, its minimal content makes it very easy to read.",
+        "image": ""
     },
     {
         "name": "B♭ major/G minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "B♭ major, or G minor, is a commonly used key signature that contains two flats. The order of the flats is always B♭ E♭. Like C, its minimal content makes it very easy to read.",
+        "image": ""
     },
     {
         "name": "A major/F♯ minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "A major, or F♯ minor, is a commonly used key signature that contains three sharps. The order of the sharps is always F♯ C♯ G♯. Like C, its minimal content makes it very easy to read.",
+        "image": ""
     },
     {
         "name": "E♭ major/C minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "E♭ major, or C minor, is a commonly used key signature that contains three flats. The order of the flats is always B♭ E♭ A♭. Like C, its minimal content makes it very easy to read.",
+        "image": ""
     },
     {
         "name": "E major/C♯ minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "E major, or C♯ minor, is a commonly used key signature that contains four sharps. The order of the sharps is always F♯ C♯ G♯ D♯. It higher number of accidentals can mean it is harder to read than smaller key signatures.",
+        "image": ""
     },
     {
         "name": "A♭ major/F minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "A♭ major, or F minor, is a commonly used key signature that contains four flats. The order of the sharps is always B♭ E♭ A♭ D♭. It higher number of accidentals can mean it is harder to read than smaller key signatures.",
+        "image": ""
     },
     {
         "name": "B major/G♯ minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "B major, or G♯ minor, is a less commonly used key signature that contains five sharps. The order of the sharps is always F♯ C♯ G♯ D♯ A♯. It higher number of accidentals can mean it is harder to read than smaller key signatures.",
+        "image": ""
     },
     {
         "name": "D♭ major/B♭ minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "D♭ major, or F minor, is a less commonly used key signature that contains five flats. The order of the sharps is always B♭ E♭ A♭ D♭ G♭. It higher number of accidentals can mean it is harder to read than smaller key signatures.",
+        "image": ""
     },
     {
         "name": "F♯ major/D♯ minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "F♯ major, or D♯ minor, is a less commonly used key signature that contains six sharps. The order of the sharps is always F♯ C♯ G♯ D♯ A♯ E♯. It higher number of accidentals can mean it is harder to read than smaller key signatures.",
+        "image": ""
     },
     {
         "name": "G♭ major/E♭ minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "G♭ major, or E♭ minor, is a less commonly used key signature that contains six flats. The order of the sharps is always B♭ E♭ A♭ D♭ G♭ C♭. It higher number of accidentals can mean it is harder to read than smaller key signatures.",
+        "image": ""
     },
     {
         "name": "C♯ major/A♯ minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "F♯ major, or D♯ minor, is a less commonly used key signature that contains seven sharps. The order of the sharps is always F♯ C♯ G♯ D♯ A♯ E♯ B♯. It higher number of accidentals can mean it is harder to read than smaller key signatures.",
+        "image": ""
     },
     {
         "name": "C♭ major/A♭ minor",
-        "description": "",
-        "image": "",
-        "subsection": "Key Signatures"
+        "description": "C♭ major, or A♭ minor, is a less commonly used key signature that contains seven flats. The order of the sharps is always B♭ E♭ A♭ D♭ G♭ C♭ F♭. It higher number of accidentals can mean it is harder to read than smaller key signatures.",
+        "image": ""
     }
 ]
