@@ -2,26 +2,26 @@
     {
         "name": "Semibreve/Whole Note Rest",
         "description": "As the name implies, a semibreve rest exists to create a silence to fill the length of a bar of 4/4, the same lenght as a standard semibreve note.",
-        "image": ""
+        "image": "../images/Rhythms/WholeRest.png"
     },
     {
         "name": "Minum/Half Note Rest",
         "description": "As the name implies, a minum rest exists to create a silence to fill the length of half a bar of 4/4, the same length as a standard minum.",
-        "image": ""
+        "image": "../images/Rhythms/HalfRest.png"
     },
     {
         "name": "Crotchet/Quarter Note Rest",
         "description": "As the name implies, a crotchet rest exists to create a silence to fill a quarter of the length of a bar of 4/4, the same length as a standard crotchet.",
-        "image": ""
+        "image": "../images/Rhythms/QuarterRest.png"
     },
     {
         "name": "Quaver/Eighth Note Rest",
         "description": "As the name implies, a quaver rest exists to create a silence to fill an eighth of the length of a bar of 4/4, the same length as a standard quaver.",
-        "image": ""
+        "image": "../images/Rhythms/EighthRest.png"
     },
     {
         "name": "Semiquaver/Sixteenth Note Rest",
         "description": "As the name implies, a semiquaver rest exists to create a silence to fill a sixteenth of the length of a bar of 4/4, the same length as a standard semiquaver.",
-        "image": ""
+        "image": "../images/Rhythms/SixteenthRest.png"
     }
 ]
