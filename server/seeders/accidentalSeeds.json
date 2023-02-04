@@ -1,27 +1,27 @@
 [
     {
         "name": "Sharp",
-        "description": "",
+        "description": "A sharp is a symbol used to raise the pitch of a note to that of the immediate next note, which is usually a black key but not always. This distance is also known as a semitone.",
         "image": ""
     },
     {
         "name": "Flat",
-        "description": "",
+        "description": "A flat works similarly to a sharp but instead of raising the pitch of a note, it lowers it by a semitone. Like with sharps, this would often be a black key on a piano but not always.",
         "image": ""
     },
     {
         "name": "Natural",
-        "description": "",
+        "description": "The role of the natural symbol is to reset the pitch of a note to its basic letter name without any alteration. The most common use of this is to temporarily counteract the effect of a key signature, which is discussed below. ",
         "image": ""
     },
     {
         "name": "Double Sharp",
-        "description": "",
+        "description": "A double sharp, represented by an x, increases the pitch of a note by two semitones, also known as a tone, rather than one. Since this is often a white key, meaning it's enharmonic to another note value, it's important to note that the letter name of the note stay the same.",
         "image": ""
     },
     {
         "name": "Double Flat",
-        "description": "",
+        "description": "Like with a double sharp, a double flat, represented by two flats together, moves the pitch down like a regular flat but for a tone rather than a semitone. Like with double sharps, it's important to note that the letter name of the note stays the same, despite it being enharmonic with another.",
         "image": ""
     }
 ]
