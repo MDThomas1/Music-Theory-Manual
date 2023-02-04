@@ -7,7 +7,7 @@ import RhythmAdditionList from '../components/RhythmAdditionList'
 
 const Rhythm = () => {
     return (
-        <div id='rhythm'>
+        <div id='rhythm' className='page'>
             <h3>Rhythm</h3>
             <p>While rhythm can be a tricky concept to explain, it can best be thought of as where we place notes in relation to the beat of a piece of music. When used in variation with one another they can create a unique form of interest in music that can't be provided any other way. Rhythms can be expanded and divided by almost an infinite amount but, since most of these are not often used, this page provides only the most common and practical <a href='#common-rhythms'>rhythmic values</a>, along with their associated <a href='#rests'>rests</a>and <a href='#triplets'>triplets</a>, as well as a couple of <a href='#additions'>symbols</a>used in rhythmic notation. Each of these is displayed on a singular horizontal line for optimal viewing.</p>
             <div id='common-rhythms'>

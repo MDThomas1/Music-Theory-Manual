@@ -3,18 +3,12 @@
         "name": "Blues Scale",
         "structure": "Minor 3rd, Tone, Semitone, Semitone, Minor 3rd, Tone",
         "description": "The blues scale is a six note variation of the minor pentatonic scale that includes the tritone played inbetween the perfect fourth and the perfect fifth. Because of this addition, the blues scale has a brighter quality than the minor pentatonic scale due to the added dissonance, which can be used for more colorful songwriting but doesn't really allow for creating harmony in a song.",
-        "image": ""
+        "image": "'../images/Scales/Blues.png'"
     },
     {
         "name": "Harmonic Minor",
         "structure": "Tone, Semitone, Tone, Tone, Semitone, Minor 3rd, Semitone",
         "description": "The harmonic minor scale is best thought of as a variation of the natural minor scale where the seventh scale degree is raised a semitone, creating a distance of three semitone between the sixth and seventh scale degrees. Because of this change, like with the tritone in the blues scale, there's a brighter sound created that can open many different angle to approach to harmonic content of a piece of music.",
-        "image": ""
-    },
-    {
-        "name": "Melodic Minor",
-        "structure": "Tone, Semitone, Tone, Tone, Tone, Tone, Semitone",
-        "description": "The melodic minor scale is best thought of as a variation of the major scale where the third scale degree has been lowered a semitone, turning it into a minor scale. Because of it being essentially half of a minor scale and half of a major scale, it creates an interesting and unique quality that sounds similar to the harmonic minor scale but still quite different. In classical music it is often used in conjunction with the natural minor scale.",
-        "image": ""
+        "image": "'../images/Scales/HarmonicMin.png'"
     }
 ]
