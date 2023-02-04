@@ -1,5 +1,4 @@
 const User = require('./User')
-const Note = require('./Note')
 
 const Clef = require('./Clef')
 const Accidental = require('./Accidental')
@@ -25,7 +24,6 @@ const SeventhChord = require('./SeventhChord')
 
 module.exports = {
     User, 
-    Note, 
     Clef, 
     Accidental, 
     KeySignature, 
