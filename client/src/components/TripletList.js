@@ -12,9 +12,9 @@ const TripletList = () => {
 
     return (
         <div className='information'>
-            {triplets.map((triplet) => {
+            {triplets.map((triplet) => (
                 <RhythmSymbolCard image={triplet.image} name={triplet.name} description={triplet.description}/>
-            })}
+            ))}
         </div>
     )
 }

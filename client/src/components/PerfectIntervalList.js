@@ -12,9 +12,9 @@ const PerfectIntervalList = () => {
 
     return (
         <div className='information'>
-            {perfectIntervals.map((perfectInterval) => {
+            {perfectIntervals.map((perfectInterval) => (
                 <IntervalCard image={perfectInterval.image} name={perfectInterval.name} description={perfectInterval.description} referenceSong={perfectInterval.referenceSong} />
-            })}
+            ))}
         </div>
     )
 }

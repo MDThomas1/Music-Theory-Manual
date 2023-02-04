@@ -12,9 +12,9 @@ const PentatonicList = () => {
 
     return (
         <div className='information'>
-            {pentatonics.map((pentatonic) => {
+            {pentatonics.map((pentatonic) => (
                 <ChordScaleCard image={pentatonic.image} name={pentatonic.name} description={pentatonic.description} structure={pentatonic.structure} />
-            })}
+            ))}
         </div>
     )
 }

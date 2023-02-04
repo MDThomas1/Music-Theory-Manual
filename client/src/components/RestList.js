@@ -12,9 +12,9 @@ const RestList = () => {
 
     return (
         <div className='information'>
-            {rests.map((rest) => {
+            {rests.map((rest) => (
                 <RhythmSymbolCard image={rest.image} name={rest.name} description={rest.description}/>
-            })}
+            ))}
         </div>
     )
 }

@@ -12,9 +12,9 @@ const RhythmList = () => {
 
     return (
         <div className='information'>
-            {rhythms.map((rhythm) => {
+            {rhythms.map((rhythm) => (
                 <RhythmSymbolCard image={rhythm.image} name={rhythm.name} description={rhythm.description}/>
-            })}
+            ))}
         </div>
     )
 }

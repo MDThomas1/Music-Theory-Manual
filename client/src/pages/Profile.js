@@ -6,8 +6,6 @@ import { QUERY_ME } from '../utils/queries';
 
 import { CREATE_NOTE } from '../utils/mutations'
 
-import NoteList from '../components/NoteList'
-
 import Auth from '../utils/auth'
 
 const Profile = () => {
@@ -22,7 +20,7 @@ const Profile = () => {
     const handleFormSubmit = async (event) => {
         event.preventDefault()
 
-        try {
+        /*try {
             const data = await createNote({
                 variables: { note }
             })
@@ -31,7 +29,7 @@ const Profile = () => {
 
         } catch (error) {
             console.error(error)
-        }
+        }*/
     }
 
     return (
@@ -52,7 +50,7 @@ const Profile = () => {
                 </p>
                 : 
                 <div>
-                    <NoteList />
+                    <p>Notes</p>
                 </div> }
             </div>
             <div>

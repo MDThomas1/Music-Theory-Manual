@@ -12,9 +12,9 @@ const MajorIntervalList = () => {
 
     return (
         <div className='information'>
-            {majorIntervals.map((majorInterval) => {
+            {majorIntervals.map((majorInterval) => (
                 <IntervalCard image={majorInterval.image} name={majorInterval.name} description={majorInterval.description} referenceSong={majorInterval.referenceSong} />
-            })}
+            ))}
         </div>
     )
 }

@@ -12,9 +12,9 @@ const MinorIntervalList = () => {
 
     return (
         <div className='information'>
-            {minorIntervals.map((minorInterval) => {
+            {minorIntervals.map((minorInterval) => (
                 <IntervalCard image={minorInterval.image} name={minorInterval.name} description={minorInterval.description} referenceSong={minorInterval.referenceSong} />
-            })}
+            ))}
         </div>
     )
 }
