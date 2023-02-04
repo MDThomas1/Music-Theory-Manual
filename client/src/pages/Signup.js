@@ -40,7 +40,7 @@ const Signup = () => {
     }
 
     return (
-        <div>
+        <div className='page'>
             <h3>Sign up</h3>
             <div>
                 <form onSubmit={handleFormSubmit}>

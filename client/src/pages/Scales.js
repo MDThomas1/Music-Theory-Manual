@@ -6,7 +6,7 @@ import OtherScaleList from '../components/OtherScaleList'
 
 const Scales = () => {
     return (
-        <div id='scales'>
+        <div id='scales' className='page'>
             <h3>Scales</h3>
             <p>A scale is a brief sequence of notes that much like an interval, carries its own unique sound and character. Because of this fact they are often used as the catalyst for creating both a harmonic structure and a melodic tone in a piece of music. Typically, scales consist of seven notes, with one for each letter name, but scales with more and less notes also exist. While there are hundreds of scales out there, this page contains the most commonly used, divided into <a href='#major-modes'>major modes</a>, <a href='#pentatonic-scales'>pentatonic scales</a> and <a href='#useful-scales'>a few others</a> that will prove useful to know. All scale visuals are presented ascending from C for ease of comparison.</p>
             <div id='major-modes'>

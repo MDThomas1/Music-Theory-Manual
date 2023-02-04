@@ -35,7 +35,7 @@ const Profile = () => {
     }
 
     return (
-        <div>
+        <div className='page'>
             <h3>Welcome {profile.name}</h3>
             <div>
                 <h4>Create a new note</h4>
