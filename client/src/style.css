@@ -98,6 +98,11 @@ p {
     float: left;
 }
 
+.static-img {
+    margin-left: 10%;
+    float: right;
+}
+
 .nav-item {
     display: inline-block;
     color: azure;
