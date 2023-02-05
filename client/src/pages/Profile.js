@@ -4,7 +4,7 @@ import { useQuery, useMutation } from '@apollo/client';
 
 import { QUERY_ME } from '../utils/queries';
 
-import { CREATE_NOTE } from '../utils/mutations'
+import { CREATE_NOTE, DELETE_NOTE } from '../utils/mutations'
 
 import Auth from '../utils/auth'
 
@@ -15,7 +15,7 @@ const Profile = () => {
 
     const [note, setNote] = useState('')
 
-    const [createNote, { error }] = useMutation(CREATE_NOTE)
+    const [createNote, { createError }] = useMutation(CREATE_NOTE)
  
     const handleFormSubmit = async (event) => {
         event.preventDefault()
@@ -28,6 +28,16 @@ const Profile = () => {
             setNote('')
 
         } catch (error) {
+            console.error(error)
+        }
+    }
+
+    const [ deleteNote, { deleteError } ] = useMutation(DELETE_NOTE)
+
+    const handleNoteDeletion = async () => {
+        try {const { data } = await deleteNote({
+            variables: {note}
+        })} catch (error) {
             console.error(error)
         }
     }
@@ -53,12 +63,13 @@ const Profile = () => {
                     {profile.notes.map((note) => (
                         <div className='note'>
                             <p>{note}</p>
+                            <button type='button' onClick={handleNoteDeletion(note)}></button>
                         </div>
                     ))}
                 </div> }
             </div>
             <div>
-                <button type='click' onClick={Auth.logout()}>
+                <button type='button' onClick={Auth.logout()}>
                     Logout
                 </button>
             </div>
