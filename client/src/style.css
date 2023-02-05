@@ -49,6 +49,11 @@ button {
     min-width: 20%;
 }
 
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .navbar {
     background-color: darkslategrey;
 }
