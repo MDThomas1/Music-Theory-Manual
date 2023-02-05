@@ -6,6 +6,7 @@ Music Theory Manual is an online music application that, once you either login a
 * [Link to Deployed Site](#Link-to-Deployed-Site)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
+* [Installation](#Installation)
 * [Usage](#Usage)
 * [Technologies Used](#Technologies-Used)
 * [Contact](#Contact)
