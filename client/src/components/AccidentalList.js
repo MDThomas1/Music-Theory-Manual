@@ -12,9 +12,9 @@ const AccidentalList = () => {
 
     return (
         <div className='information'>
-            {accidentals.map((accidental) => {
+            {accidentals.map((accidental) => (
                 <RhythmSymbolCard image={accidental.image} name={accidental.name} description={accidental.description}/>
-            })}
+            ))}
         </div>
     )
 }

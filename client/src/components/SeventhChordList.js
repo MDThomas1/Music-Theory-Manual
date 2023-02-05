@@ -12,9 +12,9 @@ const SeventhChordList = () => {
 
     return (
         <div className='information'>
-            {seventhChords.map((seventhChord) => {
+            {seventhChords.map((seventhChord) => (
                 <ChordScaleCard image={seventhChord.image} name={seventhChord.name} description={seventhChord.description} structure={seventhChord.structure} />
-            })}
+            ))}
         </div>
     )
 }

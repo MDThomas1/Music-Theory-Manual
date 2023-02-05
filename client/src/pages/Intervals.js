@@ -23,7 +23,7 @@ const Intervals = () => {
             </div>
             <div id='tritone'>
                 <h3>Tritone</h3>
-                <img src='../images/Intervals/Tritone.png' />
+                <img src='../images/Intervals/Tritone.png' alt='Failed to load' />
                 <p>The tritone, also known as the augmented fourth or the diminished fifth, is a unique interval as it rests evenly between two perfect intervals and, in terms of notes, lies halfway between two notes in an octave. However despite it's position, its ratio of 45:32 gives it a very unstable sound that carries more tension that just about any other interval. While it is commonly used, it is always always in moderation as prolonged tension in music is often not the goal of composers.</p>
             </div>
         </div>

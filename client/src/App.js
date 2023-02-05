@@ -44,7 +44,6 @@ function App() {
                 <div>
                     <Header />
                     <Navbar />
-                </div>
                 <div>
                     <Routes>
                         <Route path='/' element={<Home />} />
@@ -57,6 +56,7 @@ function App() {
                         <Route path='/rhythm' element={<Rhythm />} />
                         <Route path='/scales' element={<Scales />} />
                     </Routes>
+                </div>
                 </div>
             </Router>
         </ApolloProvider>

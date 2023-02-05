@@ -12,9 +12,9 @@ const KeySignatureList = () => {
 
     return (
         <div className='information'>
-            {keySignatures.map((keySignature) => {
+            {keySignatures.map((keySignature) => (
                 <RhythmSymbolCard image={keySignature.image} name={keySignature.name} description={keySignature.description}/>
-            })}
+            ))}
         </div>
     )
 }

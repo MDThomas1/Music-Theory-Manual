@@ -12,9 +12,9 @@ const OtherScaleList = () => {
 
     return (
         <div className='information'>
-            {otherScales.map((otherScale) => {
+            {otherScales.map((otherScale) => (
                 <ChordScaleCard image={otherScale.image} name={otherScale.name} description={otherScale.description} structure={otherScale.structure} />
-            })}
+            ))}
         </div>
     )
 }

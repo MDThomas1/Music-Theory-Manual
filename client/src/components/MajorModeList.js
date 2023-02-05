@@ -12,9 +12,9 @@ const MajorModeList = () => {
 
     return (
         <div className='information'>
-            {majorModes.map((majorMode) => {
+            {majorModes.map((majorMode) => (
                 <ChordScaleCard image={majorMode.image} name={majorMode.name} description={majorMode.description} structure={majorMode.structure} />
-            })}
+            ))}
         </div>
     )
 }

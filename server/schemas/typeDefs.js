@@ -10,64 +10,56 @@ type User {
     notes: [String]
 }
 
-type Clef: {
+type Clef {
     _id: ID
     name: String!
     description: String!
     image: String!
 }
 
-type Accidental: {
+type Accidental {
     _id: ID
     name: String!
     description: String!
     image: String!
 }
 
-type KeySignature: {
+type KeySignature {
     _id: ID
     name: String!
     description: String!
     image: String!
 }
 
-type Rhythm: {
+type Rhythm {
     _id: ID
     name: String!
     description: String!
     image: String!
 }
 
-type Rest: {
+type Rest {
     _id: ID
     name: String!
     description: String!
     image: String!
 }
 
-type Triplet: {
+type Triplet {
     _id: ID
     name: String!
     description: String!
     image: String!
 }
 
-type RhythmAddition: {
+type RhythmAddition {
     _id: ID
     name: String!
     description: String!
     image: String!
 }
 
-type MajorMode: {
-    _id: ID
-    name: String!
-    structure: String!
-    description: String!
-    image: String!
-}
-
-type Pentatonic: {
+type MajorMode {
     _id: ID
     name: String!
     structure: String!
@@ -75,7 +67,7 @@ type Pentatonic: {
     image: String!
 }
 
-type OtherScale: {
+type Pentatonic {
     _id: ID
     name: String!
     structure: String!
@@ -83,7 +75,15 @@ type OtherScale: {
     image: String!
 }
 
-type Perfect Interval: {
+type OtherScale {
+    _id: ID
+    name: String!
+    structure: String!
+    description: String!
+    image: String!
+}
+
+type PerfectInterval {
     _id: ID
     name: String!
     description: String!
@@ -91,7 +91,7 @@ type Perfect Interval: {
     referenceSong: String!
 }
 
-type Major Interval: {
+type MajorInterval {
     _id: ID
     name: String!
     description: String!
@@ -99,7 +99,7 @@ type Major Interval: {
     referenceSong: String!
 }
 
-type Minor Interval: {
+type MinorInterval {
     _id: ID
     name: String!
     description: String!
@@ -145,7 +145,7 @@ type Auth {
 }
 
 type Query {
-    me: Profile!
+    me: User!
     clefs: [Clef!]
     accidentals: [Accidental!]
     keySignatures: [KeySignature!]
@@ -168,9 +168,10 @@ type Query {
 type Mutation {
     signUp(name: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
+    deleteAccount: Auth
 
-    createNote(note: Note!): User
-    deleteNote(note: Note!): User
+    createNote(note: String!): User
+    deleteNote(note: String!): User
 }
 `
 

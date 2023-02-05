@@ -12,9 +12,9 @@ const SusChordList = () => {
 
     return (
         <div className='information'>
-            {susChords.map((susChord) => {
+            {susChords.map((susChord) => (
                 <ChordScaleCard image={susChord.image} name={susChord.name} description={susChord.description} structure={susChord.structure} />
-            })}
+            ))}
         </div>
     )
 }

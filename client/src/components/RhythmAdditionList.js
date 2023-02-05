@@ -12,9 +12,9 @@ const RhythmAdditionList = () => {
 
     return (
         <div className='information'>
-            {rhythmAdditions.map((rhythmAddition) => {
+            {rhythmAdditions.map((rhythmAddition) => (
                 <RhythmSymbolCard image={rhythmAddition.image} name={rhythmAddition.name} description={rhythmAddition.description}/>
-            })}
+            ))}
         </div>
     )
 }

@@ -12,9 +12,9 @@ const ClefList = () => {
 
     return (
         <div className='information'>
-            {clefs.map((clef) => {
+            {clefs.map((clef) => (
                 <RhythmSymbolCard image={clef.image} name={clef.name} description={clef.description}/>
-            })}
+            ))}
         </div>
     )
 }

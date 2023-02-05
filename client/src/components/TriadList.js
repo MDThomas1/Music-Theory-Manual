@@ -12,9 +12,9 @@ const TriadList = () => {
 
     return (
         <div className='information'>
-            {triads.map((triad) => {
+            {triads.map((triad) => (
                 <ChordScaleCard image={triad.image} name={triad.name} description={triad.description} structure={triad.structure} />
-            })}
+            ))}
         </div>
     )
 }

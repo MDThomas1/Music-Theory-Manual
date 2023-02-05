@@ -146,8 +146,8 @@ query otherScales {
 }`
 
 export const QUERY_TRIADS = gql`
-query chords {
-    chords {
+query triads {
+    triads {
         _id
         name
         structure
