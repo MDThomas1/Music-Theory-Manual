@@ -160,6 +160,14 @@ const resolvers = {
             }
 
             throw new AuthenticationError("It appears you aren't currently logged in!")
+        },
+
+        deleteAccount: async (parent, args, context) => {
+            if (context.user) {
+                return User.findOneAndDelete(context.user._id)
+            }
+
+            throw new AuthenticationError("It appears you aren't currently logged in!")
         }
     }
 }

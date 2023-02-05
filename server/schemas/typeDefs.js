@@ -168,6 +168,7 @@ type Query {
 type Mutation {
     signUp(name: String!, email: String!, password: String!): Auth
     login(email: String!, password: String!): Auth
+    deleteAccount: Auth
 
     createNote(note: String!): User
     deleteNote(note: String!): User
