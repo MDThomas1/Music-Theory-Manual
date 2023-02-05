@@ -11,7 +11,8 @@ Music Theory Manual is an online music application that, once you either login a
 * [Contact](#Contact)
 
 ## Link to Deployed Site
-Coming soon...
+[https://intense-coast-35292.herokuapp.com/](https://intense-coast-35292.herokuapp.com/)
+
 
 ## User Story
 ```bash
@@ -52,14 +53,24 @@ WHEN I finish all ten questions
 THEN I am shown my score, which is saved to my profile
 ```
 
+## Installation
+In order to run this code on your local device, without the use of the heroku link, all you will have to do is download the code and run the following npm commands through the terminal.
+
+```bash
+npm i / npm install
+npm run seed
+npm run develop
+```
+
 ## Usage
-Coming soon...
+Once you enter the site, you'll be presented with a home page giving a description of the intentions behind the website and a brief summary on its features. This home page can be accessed at any time through clicking the name of the website in the page's header. From there, you'll also have access to  navbar with all the topics available. Each topic page contains a brief description of what the contents of the page mean and subsections of information on that topic. From the navbar you'll also be given the option to log in if you haven't already. The option to sign up is also available on the login page. Once you have logged in, you'll be given access to a new page called profile. This profile page interacts directly with your saved session and gives you access to the study notes feature. You can create and delete study note or goals as you wish and, once you're done, a logoout button is present at the bottom of the page.
 
 ## Technologies Used
 * Github
 * HTML
 * CSS
 * Javascript
+* Heroku
 * Node
 * Express
 * React
