@@ -10,6 +10,7 @@ h1 {
 
 iframe {
     pointer-events: none;
+    display: none;
 }
 
 h2,
