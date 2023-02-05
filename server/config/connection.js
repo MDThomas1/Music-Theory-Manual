@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/music-theory-manual',
+    process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/Music-Theory-Manual',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
