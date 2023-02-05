@@ -20,7 +20,7 @@ const Profile = () => {
     const handleFormSubmit = async (event) => {
         event.preventDefault()
 
-        /*try {
+        try {
             const data = await createNote({
                 variables: { note }
             })
@@ -29,7 +29,7 @@ const Profile = () => {
 
         } catch (error) {
             console.error(error)
-        }*/
+        }
     }
 
     return (
@@ -49,8 +49,12 @@ const Profile = () => {
                     You don't currently have any notes. Use the form above to create some.
                 </p>
                 : 
-                <div>
-                    <p>Notes</p>
+                <div className='notelist'>
+                    {profile.notes.map((note) => (
+                        <div className='note'>
+                            <p>{note}</p>
+                        </div>
+                    ))}
                 </div> }
             </div>
             <div>
