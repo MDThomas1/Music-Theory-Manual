@@ -1,11 +1,12 @@
 body {
-    background-color: antiquewhite;
+    background-color: azure;
 }
 
 h1 {
     font-family: cursive;
-    margin-top: 20%;
+    margin-top: 7%;
     margin-left: 15%;
+    color: black;
 }
 
 iframe {
@@ -23,7 +24,7 @@ h3 {
 
 
 .header {
-    background-color: antiquewhite;
+    background-color: azure;
     height: 50px;
 }
 
@@ -106,23 +107,25 @@ p {
 .nav-item {
     display: inline-block;
     color: azure;
+    margin: 10px;
 }
 
-.nav-item a {
+.nav-link {
     color: azure; 
-    height: 30px;
-    margin: 7px;
+    text-decoration: none;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 .information {
     margin-bottom: 40px;
 }
 
-.nav-item:hover {
-    box-shadow: 0 0 10px azure;
+.nav-link:hover {
+    text-shadow: 0 0 5px azure;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 500px) {
     .nav-item {
         display: block;
         text-align: center;

@@ -10,9 +10,13 @@ const KeySignatureList = () => {
 
     const keySignatures = data?.keySignatures
 
+    if (!keySignatures) {
+        return null
+    }
+
     return (
         <div className='information'>
-            {keySignatures.map((keySignature) => (
+            {keySignatures && keySignatures.map((keySignature) => (
                 <RhythmSymbolCard image={keySignature.image} name={keySignature.name} description={keySignature.description}/>
             ))}
         </div>

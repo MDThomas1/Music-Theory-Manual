@@ -10,11 +10,16 @@ const ClefList = () => {
 
     const clefs = data?.clefs
 
+    if (!clefs) {
+        return null
+    }
+
     return (
         <div className='information'>
-            {clefs.map((clef) => (
+            {clefs && clefs.map((clef) => (
                 <RhythmSymbolCard image={clef.image} name={clef.name} description={clef.description}/>
             ))}
+            {clefs.map()}
         </div>
     )
 }
