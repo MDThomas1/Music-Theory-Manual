@@ -4,7 +4,7 @@ import RhythmSymbolCard from './Rhythm-Symbol-Card'
 
 import WholeNote from '../images/Rhythms/WholeNote.png'
 import HalfNote from '../images/Rhythms/HalfNote.png'
-import QuaterNote from '../images/Rhythms/QuaterNote.png'
+import QuaterNote from '../images/Rhythms/QuarterNote.png'
 import EighthNote from '../images/Rhythms/EighthNote.png'
 import SixteenthNote from '../images/Rhythms/SixteenthNote.png'
 

@@ -2,8 +2,8 @@ import React from 'react'
 
 import ChordScaleCard from './Chord-Scale-Card'
 
-import MajPent from '../images/Scales/MajPent'
-import MinPent from '../images/Scales/MinPent'
+import MajPent from '../images/Scales/MajPent.png'
+import MinPent from '../images/Scales/MinPent.png'
 
 const PentatonicList = () => {
     const pentatonics = [
