@@ -54,7 +54,7 @@ const Profile = () => {
             </div>
             <div>
                 <h3>Your Notes List</h3>
-                {!profile.notes.length ? 
+                {!profile.notes ? 
                 <p>
                     You don't currently have any notes. Use the form above to create some.
                 </p>
