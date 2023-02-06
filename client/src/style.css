@@ -73,6 +73,8 @@ p {
     border-color: black;
     border-radius: 5px;
     border-width: thick;
+    background-color: cornflowerblue;
+    margin-top: 5px;
 }
 
 .home {
