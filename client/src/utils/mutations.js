@@ -4,11 +4,11 @@ export const SIGN_UP = gql`
 mutation signUp($name: String!, $email: String!, $password: String!) {
     signUp(name: $name, email: $email, password: $password) {
         token
-        profile(
+        profile {
             _id
             name
             notes
-        )
+        }
     }
 }`
 
@@ -16,11 +16,11 @@ export const LOGIN_USER = gql`
 mutation login($name: String!, $email: String!, $password: String!) {
     login(email: $email, password: $password) {
         token
-        profile(
+        profile {
             _id
             name
             notes
-        )
+        }
     }
 }`
 
